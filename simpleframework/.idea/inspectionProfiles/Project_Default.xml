@@ -1,0 +1,17 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="AndroidLintGetContentDescriptionOverride" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="AndroidLintInstantiatable" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="AndroidLintMissingIntentFilterForMediaSearch" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="AndroidLintMissingMediaBrowserServiceIntentFilter" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="AndroidLintServiceCast" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="AndroidLintWearableBindListener" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="OneWayWebMethod" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SpringJavaConstructorAutowiringInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SpringJavaInjectionPointsAutowiringInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SpringMessageDispatcherWebXmlInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SpringWebServicesConfigurationsInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SpringXmlAutowiringInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+  </profile>
+</component>
