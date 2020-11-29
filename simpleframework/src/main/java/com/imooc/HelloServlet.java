@@ -6,7 +6,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-
+/**
+ * 泛型、反射机制 
+ *
+ *
+ * */
 @WebServlet("/hello")
 public class HelloServlet extends HttpServlet{
     @Override
