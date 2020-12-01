@@ -11,7 +11,7 @@ public class LazyDoubleCheckSingleton {
 
         //第一次检测
         if (instance==null){
-            //同步
+            //同步锁
             synchronized (LazyDoubleCheckSingleton.class){
                 if (instance == null){
                     //memory = allocate(); //1.分配对象内存空间

@@ -6,7 +6,7 @@ import java.lang.reflect.InvocationTargetException;
  *
  * */
 public class StarvingSingleton {
-    private static final StarvingSingleton starvingSingleton = new StarvingSingleton();
+    private static final StarvingSingleton starvingSingleton = new StarvingSingleton();//防止外界调用
 
     private StarvingSingleton() {
     }
