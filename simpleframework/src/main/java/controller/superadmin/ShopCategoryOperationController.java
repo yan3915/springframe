@@ -3,8 +3,8 @@ package controller.superadmin;
 
 import entity.bo.ShopCategory;
 import entity.dto.Result;
+import org.simpleframework.core.annotation.Controller;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import service.solo.ShopCategoryService;
 
 import javax.servlet.http.HttpServletRequest;

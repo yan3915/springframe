@@ -3,7 +3,7 @@ package service.solo.impl;
 
 import entity.bo.ShopCategory;
 import entity.dto.Result;
-import org.springframework.stereotype.Service;
+import org.simpleframework.core.annotation.Service;
 import service.solo.ShopCategoryService;
 
 import java.util.List;
