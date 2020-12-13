@@ -154,7 +154,7 @@ public class BeanContainer {
         return classSet.size()>0?classSet:null;
     }
     /**
-     * 通过接口或者夫类获取实现类或者子类的Class集合，不包括其本身
+     * 通过接口或者父类获取实现类或者子类的Class集合，不包括其本身
      * @param interfaceOrClass 接口Class或者父类Class
      * */
     public Set<Class<?>> getClassbySuper(Class<?> interfaceOrClass  ){
